@@ -5,7 +5,7 @@
     <title>Седона</title>
   </head>
   <body class="page__body">
-    <header class="main-header">
+<header class="main-header">
 <a class="main-header__logo">
   <img src="img/logo.svg" width="185" height="196" alt="Седона">
 </a>
@@ -30,61 +30,63 @@
     </ul>
   </div>
 </nav>
-    </header>
+</header>
 <main class="main-container">
-  <img class="background-photo">
-  <h1 class="main-headline">седона — небольшой городок в аризоне, заслуживающий большего!</h1>
-  <p class="main-descrition">рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+  <section class="main-greetings">
+  <img class="main-greetings__photo">
+  <h1 class="main-greetings__headline">седона — небольшой городок в аризоне, заслуживающий большего!</h1>
+  <p class="main-greetings__descrition">рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+  </section>
   <section class="main-advantages">
-    <div class="advantages-city">
-      <div class="advantages-city__wrapper">
-      <h2 class="main-advantages-title">настоящий городок</h2>
-      <span class="main-advantages-number">— №1 —</span>
-      <p class="main-adavantages-description">седона не аттракцион для туристов, там течет своя жизнь</p>
-    </div>
-      <div class="city-photo-wrapper">
-        <img class="city-photo" src="img/photo-city.png" width="512" height="256" alt="фотография города.">
+    <ul class="main-advantages-list">
+      <li class="main-advantages-list__item adavantages-city">
+          <div class="advantages-city__wrapper">
+          <h2 class="main-advantages-title">настоящий городок</h2>
+          <span class="main-advantages-number">— №1 —</span>
+          <p class="main-adavantages-description">седона не аттракцион для туристов, там течет своя жизнь</p>
+        </div>
+          <div class="advantages-city__photo">
+            <img class="city-photo" src="img/photo-city.png" width="512" height="256" alt="фотография города.">
+          </div>
+        <ul class="city-attractions-list">
+          <li class="city-attractions-list__item">
+            <img class="city-attractions-icon" src="img/icon-house.svg" width="75" height="72" alt="иконка жилья.">
+            <h2 class="city-attractions-title">жилье</h2>
+            <p class="city-attractions-descriptions">рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li class="city-attractions-list__item">
+            <img class="city-attractions-icon" src="img/icon-burger.svg" width="76" height="68" alt="иконка еды.">
+            <h2 class="city-attractions-title">еда</h2>
+            <p class="city-attractions-descriptions">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li class="city-attractions-list__item">
+            <img class="city-attractions-icon" src="img/icon-gift.svg" width="64" height="75" alt="иконка сувениров.">
+            <h2 class="city-attractions-title">сувенииры</h2>
+            <p class="city-attractions-descriptions">не только китайского, но и местного производства!</p>
+          </li>
+        </ul>
+      </li>
+      <li class="main-advantages-list__item adavantages-bridge">
+        <div class="adavantages-bridge__pgoto">
+          <img class="bridge-photo" src="img/photo-bridge.png" width="512" height="256" alt="фотография моста.">
+        </div>
+        <div class="advantages-bridge__wrapper">
+        <h2 class="main-advantages-title">там есть мост дьявола</h2>
+        <span class="main-advantages-number">— №2 —</span>
+        <p class="main-adavantages-description">да, по нему можно пройти! если вы осмелитесь, конечно</p>
       </div>
-    </div>
-    <ul class="city-attractions-list">
-      <li class="city-attractions-list__item">
-        <img class="city-attractions-icon" src="img/icon-house.svg" width="75" height="72" alt="иконка жилья.">
-        <h2 class="city-attractions-title">жилье</h2>
-        <p class="city-attractions-descriptions">рекомендуем пожить в настоящем мотеле, все как в кино!</p>
       </li>
-      <li class="city-attractions-list__item">
-        <img class="city-attractions-icon" src="img/icon-burger.svg" width="76" height="68" alt="иконка еды.">
-        <h2 class="city-attractions-title">еда</h2>
-        <p class="city-attractions-descriptions">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-      </li>
-      <li class="city-attractions-list__item">
-        <img class="city-attractions-icon" src="img/icon-gift.svg" width="64" height="75" alt="иконка сувениров.">
-        <h2 class="city-attractions-title">сувенииры</h2>
-        <p class="city-attractions-descriptions">не только китайского, но и местного производства!</p>
-      </li>
-    </ul>
-    <div class="advantages-bridge">
-      <div class="bridge-photo-wrapper">
-        <img class="bridge-photo" src="img/photo-bridge.png" width="512" height="256" alt="фотография моста.">
-      </div>
-      <div class="advantages-bridge__wrapper">
-      <h2 class="main-advantages-title">там есть мост дьявола</h2>
-      <span class="main-advantages-number">— №2 —</span>
-      <p class="main-adavantages-description">да, по нему можно пройти! если вы осмелитесь, конечно</p>
-    </div>
-    </div>
-    <ul class="advantages-list">
-      <li class="advantages-list__list">
+      <li class="main-advantages-list__item">
         <h2 class="adavantages-title">небольшая площадь</h2>
         <span class="advantages-number">— №3 —</span>
         <p class="advantages-desctiption">все интересные места находятся очень близко</p>
       </li>
-      <li class="advantages-list__list">
+      <li class="main-advantages-list__item">
         <h2 class="adavantages-title">красивая дорога</h2>
         <span class="advantages-number">— №4 —</span>
         <p class="advantages-desctiption">ехать в седону из лас-вегаса совсем не скучно</p>
       </li>
-      <li class="advantages-list__list">
+      <li class="main-advantages-list__item">
         <h2 class="adavantages-title">мало туристов</h2>
         <span class="advantages-number">— №5 —</span>
         <p class="advantages-desctiption">большинство едет в гранд каньон и толпится там</p>
