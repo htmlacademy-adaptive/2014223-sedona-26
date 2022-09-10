@@ -1,0 +1,169 @@
+body {
+  font-family: "PT Sans";
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/source/fonts/PTsans/PT-Sans_Regular.woff2") format "woff2";
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/source/fonts/ptsansbold.woff2") format "woff2";
+  font-display: swap;
+}
+.main-header {
+  background-color: #FFFFFF;
+}
+.main-nav {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.site-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.site-list__link {
+  text-decoration: none;
+  color: #000000;
+}
+.site-list__link--active {
+  color: #766357;
+}
+.main-greetings {
+  text-transform: uppercase;
+}
+.main-greetings__headline {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+.main-greetings__descrition {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+.major-advantages {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.major-advantages__wrapper {
+  background-color: #81B3D2;
+}
+.major-advantages__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+.major-advantages__number {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.major-davantages__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.main-advantages-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.main-advantages-list__item {
+  background-color: #EEEEEE;
+  text-transform: uppercase;
+}
+.main-advantages-list__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+.main-advantages-list__number {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+.main-advantages-list__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+.city-attractions-list {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.city-attractions-list__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+.city-attractions-list__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+.search {
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+}
+.search__title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+.search__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+.seacrh__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #81B3D2;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+.map {
+  display: block;
+  background-image: url("/source/img/map-mobile.png");
+}
+.main-footer {
+  text-transform: uppercase;
+}
+.main-footer__hashtag {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+.main-footer__academy-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.main-footer-social-list {
+  list-style-type: none;
+}
+.main-footer-social-list__item {
+  background-color: #81B3D2;
+}
+/*# sourceMappingURL=style.css.map */
